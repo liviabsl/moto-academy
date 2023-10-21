@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(230, 226, 226);
+}
+
+.titulo{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font{
+    font-family: 'Pixelify Sans', sans-serif;
+    width: 800px;
+    font-size: 20px;
+    color: palevioletred;
+    /*text-decoration: line-through;
+    box-shadow: 5px 5px 70px inherit;*/
+    text-shadow: 5px 5px 10px;
+    text-wrap: wrap;
+}
