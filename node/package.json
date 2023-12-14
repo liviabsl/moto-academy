@@ -1,0 +1,15 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "primeira aula node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
