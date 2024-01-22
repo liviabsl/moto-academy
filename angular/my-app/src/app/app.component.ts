@@ -5,11 +5,13 @@ import { MeuComponenteComponent } from './meu-componente/meu-componente.componen
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, MeuComponenteComponent],
+  standalone: false,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'my-app';
+  helloWorld = {
+    message: 'Olá mundo'
+  }
 }
